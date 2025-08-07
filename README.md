@@ -1,2 +1,74 @@
-# Recipe-Finder
-An interactive recipe finder web app using JavaScript and Spoonacular API. Search delicious recipes based on ingredients you have at home.
+# 🍴 Recipe Finder App
+
+An interactive recipe finder web app using JavaScript and Spoonacular API.  
+Search delicious recipes based on ingredients you have at home.
+
+---
+
+## 🚀 Live Preview
+
+> _Optional: Add your deployed site link here (e.g., GitHub Pages)_
+
+---
+
+## 💡 Features
+
+- 🔍 Search recipes by ingredients  
+- 📷 View image, name, ingredients, and link to full recipe  
+- ⏳ Loading animation while fetching results  
+- ❌ Error handling for input/API issues  
+- 📱 Responsive design with clean UI  
+
+---
+
+## 🛠️ Technologies Used
+
+- HTML5  
+- CSS3  
+- JavaScript (ES6)  
+- [Spoonacular API](https://spoonacular.com/food-api)
+
+---
+
+## 📦 How to Run Locally
+
+1. **Clone this repository**
+   ```bash
+   git clone https://github.com/your-username/recipe-finder.git
+   cd recipe-finder
+Open index.html in your browser
+
+No server or build step required — it's a pure frontend project.
+
+🔑 API Key Setup
+This app uses the Spoonacular Recipe API.
+
+Get your free API key from Spoonacular API
+
+Replace the key in script.js:
+
+javascript
+Copy
+Edit
+const API_KEY = 'YOUR_API_KEY_HERE';
+✅ Current test key used: f1eca391d55a4535ae0e620c6a511792
+📌 Note: Free keys have rate limits — replace it with your own for extended use.
+
+📁 Project Structure
+bash
+Copy
+Edit
+recipe-finder/
+├── index.html       # Main web page
+├── style.css        # Stylesheet
+├── script.js        # JavaScript for fetching and displaying recipes
+└── README.md        # Project documentation
+👨‍💻 Author
+Gowtham
+Pre-final year B.Tech IT student
+Passionate about AI, Cybersecurity, and Emerging Technologies
+
+GitHub • LinkedIn
+
+📄 License
+This project is licensed under the MIT License.
