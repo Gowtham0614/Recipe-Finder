@@ -36,9 +36,11 @@ Search delicious recipes based on ingredients you have at home.
    ```bash
    git clone https://github.com/your-username/recipe-finder.git
    cd recipe-finder
-Open index.html in your browser
+Open the app in a browser
 
-No server or build step required — it's a pure frontend project.
+Double-click on index.html
+
+Or open with Live Server if you're using VS Code
 
 🔑 API Key Setup
 This app uses the Spoonacular Recipe API.
@@ -55,18 +57,17 @@ const API_KEY = 'YOUR_API_KEY_HERE';
 📌 Note: Free keys have rate limits — replace it with your own for extended use.
 
 📁 Project Structure
-bash
-Copy
-Edit
+````bash
 recipe-finder/
 ├── index.html       # Main web page
 ├── style.css        # Stylesheet
-├── script.js        # JavaScript for fetching and displaying recipes
+├── script.js        # JavaScript logic
 └── README.md        # Project documentation
 👨‍💻 Author
 Gowtham
 Pre-final year B.Tech IT student
 Passionate about AI, Cybersecurity, and Emerging Technologies
+
 
 
 📄 License
