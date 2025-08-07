@@ -63,6 +63,7 @@ recipe-finder/
 ├── style.css        # Stylesheet
 ├── script.js        # JavaScript logic
 └── README.md        # Project documentation
+````
 👨‍💻 Author
 Gowtham
 Pre-final year B.Tech IT student
