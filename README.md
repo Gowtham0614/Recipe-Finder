@@ -68,7 +68,6 @@ Gowtham
 Pre-final year B.Tech IT student
 Passionate about AI, Cybersecurity, and Emerging Technologies
 
-GitHub • LinkedIn
 
 📄 License
 This project is licensed under the MIT License.
