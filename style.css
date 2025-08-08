@@ -1,0 +1,152 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header Section */
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0 0 15px 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #ff6f61;
+}
+
+.header p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Main Section */
+.main {
+  padding: 20px;
+  flex: 1;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px 15px;
+  border: 2px solid #ff6f61;
+  border-radius: 25px;
+  font-size: 1rem;
+  flex: 1;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #ff4757;
+}
+
+.btn {
+  background-color: #ff6f61;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff4757;
+}
+
+/* Loader */
+.loader {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #ff6f61;
+}
+
+/* Results Section */
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.results .card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.results .card:hover {
+  transform: scale(1.05);
+}
+
+.results img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.results .card-body {
+  padding: 15px;
+  text-align: center;
+}
+
+.results h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #ff6f61;
+}
+
+.results ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.results a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #ff4757;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.results a:hover {
+  color: #ff6f61;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2);
+  font-size: 0.9rem;
+  color: #555;
+}
